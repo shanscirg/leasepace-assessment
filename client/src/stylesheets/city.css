@@ -1,0 +1,59 @@
+body {
+    background: url(https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80)
+}
+
+.city-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid teal;
+    width: 80%;
+    height: auto;
+    margin: 175px auto;
+    padding: 50px 0;
+}
+
+.title {
+	font-size: 30px;
+	padding: 16px 0;
+	color: rgb(1, 63, 63);
+	text-align: center;
+}
+
+#city {
+	width: 100%;
+	padding: 12px;
+	font-size: 24px;
+	font-style: italic;
+	color: #444;
+	box-sizing: border-box;
+	outline: none;
+}
+
+form {
+    width: 77%;
+    margin: auto;
+}
+
+.search-icon {
+    position: relative;
+    left: 100px;
+    bottom: 53px;
+    font-size: 24px;
+    padding: 12px;
+}
+
+@media only screen and (min-width: 950px) {
+    .city-section {
+        width: 40%;
+        margin: 100px auto;
+    }
+    form {
+        width: 100%;
+    }
+    .search-icon {
+        left: 135px;
+    }
+  }
