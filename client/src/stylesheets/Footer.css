@@ -1,0 +1,22 @@
+footer {
+    height: 21px;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 8px 15px;
+}
+
+.footer-text {
+    font-weight: bold;
+    color: rgb(1, 63, 63);
+    font-size: 16px;
+    font-family: monospace;
+    margin: 0;
+}
+
+.website-link {
+    color: rgb(1, 63, 63);
+}

@@ -1,18 +1,18 @@
 .city-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: white;
     border: 2px solid teal;
     width: 80%;
     height: auto;
-    margin: 175px auto;
-    padding: 50px 0;
+    margin: 100px auto;
+    padding: 21px 15px;
 }
 
 .title {
-	font-size: 30px;
+	font-size: 26px;
 	padding: 16px 0;
 	color: rgb(1, 63, 63);
 	text-align: center;
@@ -44,7 +44,8 @@ form {
 @media only screen and (min-width: 950px) {
     .city-section {
         width: 40%;
-        margin: 100px auto;
+        margin: 100px auto 0;
+        padding: 50px 0 21px;
     }
     form {
         width: 100%;
@@ -52,4 +53,7 @@ form {
     .search-icon {
         left: 135px;
     }
-  }
+    .title {
+        font-size: 30px;
+    }
+}
