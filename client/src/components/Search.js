@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../stylesheets/city.css';
+import '../stylesheets/Search.css';
 
 
-const Form = () => {
+const Search = () => {
 
     const [city, setCity] = useState();
     const [cityInfo, setCityInfo] = useState([]);
@@ -79,4 +79,4 @@ const Form = () => {
     )
 }
 
-export default Form;
+export default Search;
